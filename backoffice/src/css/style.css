@@ -1,0 +1,192 @@
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css';
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+/* html {
+	 box-sizing: inherit;
+	 background: linear-gradient(to left, #8e9eab, #eef2f3);
+} */
+
+body {
+	text-align: center;
+	font-size: 12px;
+	position: relative;
+	height: 100%;
+	background-image: url('../pics/wood.jpg');
+	background-size: cover;
+	overflow: auto;
+
+
+
+}
+.all{
+    margin-top: 10rem;
+}
+
+.input-icons i {
+	position: absolute;
+}
+
+.input-icons {
+	width: 100%;
+	margin-bottom: 10px;
+	border: none;
+	border-color: #c3953f;
+
+}
+
+.icon {
+	padding: 10px;
+	color: #FE4400;
+	min-width: 50px;
+	text-align: center;
+}
+
+.input-field {
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	border-color: #c3953f;
+	border-radius: 20px;
+	box-sizing: border-box;
+	border: none;
+	OUTLINE: none;
+}
+
+h2 {
+	color: white;
+}
+
+.button1 {
+
+	background-color: #FE4400;
+	color: white;
+	padding: 10px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.button1:hover {
+	background-color: #c3953f;
+}
+
+.iconAdmin {
+	color: #c3953f;
+	font-size: 60px;
+}
+
+.iconAdmin:hover {
+	color: #ffc107;
+}
+
+.form {
+	border-radius: 10px;
+	position: relative;
+	background: linear-gradient(to bottom, rgba(209, 211, 191, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%);
+	transition: opacity 0.1s, transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+	transform: scale(1);
+	padding: 25px;
+}
+
+.iconAdmin {
+	position: relative;
+	display: inline-block;
+
+}
+
+.tooltiptext {
+
+	font-size: 11px;
+	width: 100%;
+}
+
+.iconAdmin .tooltiptext {
+	visibility: hidden;
+
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 8px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+}
+
+.iconAdmin:hover .tooltiptext {
+	visibility: visible;
+}
+.Section{
+
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    z-index: 2;
+}
+.Section .div{   
+  position: relative;
+  margin-top: 30px;
+  width: 362px;
+  height: 460px;
+  grid-row-end: 400px;
+   background: rgb(172, 171, 170);
+   overflow: hidden;
+   transition: 0.5;
+   z-index: 2;
+   box-sizing: border-box;
+   padding: 30px;
+   box-shadow: -10px 25px 50px rgba(0,0,0,.2);
+   border-radius: 5px;
+}
+.Section .div:hover{
+    box-shadow: -10px 25px 50px rgba(0,0,0,.5);
+}
+.Section .div p{
+    margin-top: 30px;
+    padding: 0;
+    font-size: 17px;
+    word-break: break-all;
+    text-align: center;
+    text-shadow: rgb(221, 206, 168) 1px 2px 1px;
+}
+
+.Section .div:hover p{
+    color: #fff;
+}
+
+.Section .div h2{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    
+}
+.Section .div h6{
+    position: absolute;
+    bottom: 7px;
+    right: 30px;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+
+
+}
+.Section .div:hover h2{
+    color: #fff;
+}
+.Section .div:hover h6{
+    color: #fff;
+}
+
+
